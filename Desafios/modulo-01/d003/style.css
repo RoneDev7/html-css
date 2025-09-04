@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+
+    body {
+        min-height: 100vh;
+        text-align: center;
+        background-color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    #pl {
+        margin-top: 30px;
+    }
+
+    div > a:hover {
+        background-color: red;
+        transition: 1s;
+    }
+
+    div > a {
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 5px 15px 5px 15px;
+        border-radius: 40px;
+    }
+
+    #voltar:hover {
+        background-color: red;
+        transition: 1s;
+    }
+
+    #voltar {
+        width: 70px;
+        margin-top: 30px;
+        background-color: white;
+        border-radius: 50px;
+        padding: 5px;
+    }
