@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'nexa l';
+            src: url('fonts/Nexa\ Light.otf') format(opentype);
+        }
+
+        @font-face {
+            font-family: 'nexa b';
+            src: url('fonts/Nexa\ Bold.otf') format(opentype);
+        }
+
+        /*
+        Tipos de formato()
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - truetype-aat (Apple Advanced Typography)
+        - svg
+        */
+
+        body {
+            font-family: 'nexa b', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        h1 {
+            font-family: 'nexa l', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Título de teste
+    </h1>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa deserunt cupiditate labore fugit non iure nostrum accusamus. Iure laboriosam eius ducimus nobis numquam unde quisquam blanditiis amet deserunt. Ab, culpa!
+    </p>
+</body>
+</html>
