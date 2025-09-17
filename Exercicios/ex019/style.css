@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id = em CSS é #
+    em HTML é class = em CSS é .
+*/
+
+
+body {
+    background-color: white;
+    font-family: sans-serif;
+    
+}
+
+h1 {
+    color: purple;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: purple;
+    color: white;
+}
+
+h2 {
+    color: purple;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    border-radius: 30px;
+    padding: 10px 15px 10px 15px;
+}
+
+.basico {
+    color: green;
+    background-color: gray;
+}
+
+.intermed {
+    color: yellow;
+    background-color: gray;
+}
+
+.avanc {
+    color: red;
+    background-color: gray;
+}
