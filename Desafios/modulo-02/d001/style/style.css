@@ -42,20 +42,49 @@ body {
 
 
 header {
-    background-color: var(--cor5);
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
 }
 
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px black;
 }
 
 header > p {
     color: white;
+    font-size: 1.2em;
+    font-family: var(--fonte-padrao);
+    max-width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    text-shadow: 2px 2px black;
 }
 
 nav {
     background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 7px #ffffff4f;
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+nav > a:hover {
+    background-color: var(--cor2);
+    color: black;
 }
 
 main {
@@ -65,7 +94,7 @@ main {
     margin-bottom: 30px;
     padding: 20px;
     background-color: white;
-    box-shadow: 0px 0px 10px white;
+    box-shadow: 0px 0px 10px #ffffff7c;
 }
 
 main h1 {
