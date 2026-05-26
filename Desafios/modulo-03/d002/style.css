@@ -56,8 +56,8 @@ a:hover {
 }
 
 section {
-    padding-top: 7vh;
-    padding-bottom: 7vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte2);
@@ -72,12 +72,38 @@ section.normal {
 section.imagem {
     background-color: purple;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px #1a1a1a;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 10px;
-    background-color: #00000069;
+    background-color: #00000093;
+}
+
+section#img01 {
+    background-image: url(imagens/luffy\ 1500x1000.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+section#img02 {
+    background-image: url(imagens/zoro\ 650x292\,23.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+section#img03 {
+    background-image: url(imagens/sanji\ 1000x1000.jpg);
+    background-position: top;
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 200px;
 }
 
 footer {
