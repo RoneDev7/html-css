@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        tr.linha {
+            background-color: purple;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 7px;
+        }
+
+        td.dado {
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Minha primeira tabela
+    </h1>
+
+    <!--
+        HIERARQUIA DE TABELA (SIMPLES)
+        TABlE = Tabela
+            TABLE ROW = linha de tabela
+            TABLE HEADER = cabecalho de tabela
+            TABLE DATA = dados de tabela
+
+            se a HIERARQUIA nao for obedecida os dados vão surgir antes ou depois da tabela (entender é de suma importancia)
+    -->
+
+    <table>
+        <tr class="linha">
+            <td>a1</td>
+            <td>b1</td>
+            <td>c1</td>
+        </tr>
+
+        <tr>
+            <td>a2</td>
+            <td>b2</td>
+            <td>c2</td>
+        </tr>
+
+        <tr class="linha">
+            <td>a3</td>
+            <td>b3</td>
+            <td>c3</td>
+        </tr>
+
+        <tr>
+            <td>a4</td>
+            <td>b4</td>
+            <td class="dado">c4</td>
+        </tr>
+    </table>
+</body>
+</html>
