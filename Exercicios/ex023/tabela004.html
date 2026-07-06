@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Exercício de Tabelas
+    </h1>
+
+    <table>
+        <caption>
+            One piece
+        </caption>
+
+        <thead>
+            <tr>
+                <th>Grupos</th>
+                <th>Integrantes</th>
+                <th colspan="3">Preferência</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <th rowspan="3">Trio monstro</th>
+                <th>Luffy</th>
+                <th>Carne</th>
+                <th>Comer</th>
+                <th>Rei dos Piratas</th>
+            </tr>
+            <tr>
+                <th>Zoro</th>
+                <th>Katanas</th>
+                <th>Saquê</th>
+                <th>Melhor Espadachim</th>
+            </tr>
+            <tr>
+                <th>Sanji</th>
+                <th>Garotas</th>
+                <th>Cozinhar</th>
+                <th>AllBlue</th>
+            </tr>
+
+            <tr>
+                <th rowspan="3">Trio Medroso</th>
+                <th>Nami</th>
+                <th>Tesouros</th>
+                <th>Mapas</th>
+                <th>Melhor Navegadora</th>
+            </tr>
+            <tr>
+                <th>Usopp</th>
+                <th>Mentir</th>
+                <th>Inventar</th>
+                <th>Melhor atirador</th>
+            </tr>
+            <tr>
+                <th>Chopper</th>
+                <th>Doces</th>
+                <th>Remedios</th>
+                <th>Melhor Dr.</th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
